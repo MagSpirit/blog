@@ -1,0 +1,34 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-2zezok11qj0ta2q3ugo.mysql.rds.aliyuncs.com:3306/blog? useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: tl_admin
+    password: Ping0625
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    open-in-view: false
+  logging:
+    level: info
+    file:
+      name: ./log/loginfo.log
+  mvc:
+    static-path-pattern: /static/**
+
+#  resources:
+#    static-locations:
+#      classpath: /static/, /view/,/public,/resources,/templates/,/META-INF/resources
+
+
+server:
+  port: 80
+
+
+
+
+
+
+

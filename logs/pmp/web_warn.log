@@ -1,0 +1,439 @@
+2020-05-31 10:27:38.002 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-31 10:43:25.903 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-31 10:43:39.137 [http-nio-8080-exec-2] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [com.tl.NotFoundException: 博客不存在]
+2020-05-31 10:51:58.980 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-31 10:52:25.148 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-31 11:01:26.664 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-31 11:04:01.484 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-31 11:25:32.767 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.tl.web [Xlint:invalidAbsoluteTypeName]
+2020-05-31 11:46:07.394 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2020-05-31 12:17:38.791 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 12:17:54.866 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:18:03.074 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:18:48.105 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:19:26.219 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:19:31.566 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:24:25.864 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': Could not bind properties to 'ResourceProperties' : prefix=spring.resources, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.resources' to org.springframework.boot.autoconfigure.web.ResourceProperties
+2020-05-31 12:24:26.259 [restartedMain] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.tl.BlogApplication.main(BlogApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 45 common frames omitted
+2020-05-31 12:27:03.522 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:27:14.281 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 12:30:25.541 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /Blog/Read/9
+2020-05-31 12:30:31.976 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /read.html
+2020-05-31 13:00:37.804 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 13:23:15.573 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 13:23:20.365 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /index.html
+2020-05-31 13:23:28.331 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /message.html
+2020-05-31 13:27:34.936 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /index.html
+2020-05-31 13:30:39.627 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2020-05-31 13:41:42.312 [task-1] WARN  o.h.e.jdbc.env.internal.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'111.18.37.52' (using password: YES)
+2020-05-31 13:42:45.589 [task-1] WARN  o.h.e.jdbc.env.internal.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata : Access denied for user 'tl_admin'@'111.18.37.52' (using password: YES)
+2020-05-31 14:34:57.047 [Thread-192] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 14:35:05.254 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 14:40:35.854 [Thread-193] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 14:48:27.040 [Thread-193] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 14:53:07.365 [Thread-201] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 14:57:14.913 [Thread-194] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 14:57:32.809 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 15:08:09.829 [Thread-201] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-05-31 15:19:10.035 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 15:30:28.772 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 15:35:32.150 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 15:46:56.140 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/font-awesome.min.css
+2020-05-31 15:46:56.140 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 15:46:56.140 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 15:46:56.140 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/layui.css
+2020-05-31 15:55:43.815 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 15:55:43.815 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/layui.css
+2020-05-31 15:55:43.815 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/font-awesome.min.css
+2020-05-31 15:55:43.816 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 15:55:43.825 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 15:55:43.824 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/layui.js
+2020-05-31 15:55:43.934 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 15:55:43.934 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/1.jpg
+2020-05-31 15:56:11.869 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 15:56:11.869 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/font-awesome.min.css
+2020-05-31 15:56:11.870 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/layui.css
+2020-05-31 15:56:11.869 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 15:56:11.882 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 15:56:11.882 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/layui.js
+2020-05-31 15:56:11.983 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 15:56:11.984 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/1.jpg
+2020-05-31 15:56:12.012 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 15:56:12.025 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 15:56:14.005 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/font-awesome.min.css
+2020-05-31 15:56:14.006 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 15:56:14.006 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 15:56:14.006 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/layui.css
+2020-05-31 15:59:45.947 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 15:59:50.839 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 15:59:59.515 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 16:00:43.383 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 16:01:00.917 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /templates/article.html
+2020-05-31 16:01:57.975 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 16:01:57.975 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 16:01:57.976 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 16:01:57.977 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 16:01:58.000 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 16:01:58.000 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 16:01:58.105 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 16:01:58.105 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 16:01:58.106 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 16:01:58.195 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 16:01:58.280 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 16:30:07.923 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/css/layui.css
+2020-05-31 16:30:07.923 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 16:30:07.922 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /font-awesome/css/font-awesome.min.css
+2020-05-31 16:30:07.923 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 16:30:07.946 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/layui.js
+2020-05-31 16:30:07.946 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 16:30:08.056 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 16:30:08.056 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/1.jpg
+2020-05-31 16:30:08.166 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 16:30:08.202 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 16:31:29.008 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /font-awesome/css/font-awesome.min.css
+2020-05-31 16:31:29.008 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/css/layui.css
+2020-05-31 16:31:29.008 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 16:31:29.008 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 16:31:29.029 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 16:31:29.064 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 16:31:29.153 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/1.jpg
+2020-05-31 16:31:29.202 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 16:31:29.219 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 16:32:25.656 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/animate.min.css
+2020-05-31 16:32:25.656 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /css/index_style.css
+2020-05-31 16:32:25.657 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /font-awesome/css/font-awesome.min.css
+2020-05-31 16:32:25.656 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/css/layui.css
+2020-05-31 16:32:25.705 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/1.jpg
+2020-05-31 16:40:38.498 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 16:41:32.206 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 16:45:37.827 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 16:45:39.884 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 16:52:00.082 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 16:52:00.083 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 16:52:00.083 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 16:52:00.083 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 16:52:00.090 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 16:52:00.090 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 16:52:00.205 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 16:52:00.205 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 16:58:35.107 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 16:58:40.259 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /message.html
+2020-05-31 16:59:27.333 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 17:03:16.716 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tl.BlogApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/tl/aspect/LogAspect.class] cannot be opened because it does not exist
+2020-05-31 18:21:35.421 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2020-05-31 18:21:56.823 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 18:36:30.072 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-05-31 18:38:43.891 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-05-31 18:39:29.312 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-05-31 18:52:47.161 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-05-31 18:54:16.311 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-05-31 18:56:32.083 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-05-31 19:01:22.125 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:02:53.579 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:02:59.597 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /message.html
+2020-05-31 19:12:45.094 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:12:45.095 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:12:45.095 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/master.css
+2020-05-31 19:12:45.096 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/message.css
+2020-05-31 19:12:45.095 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/nprogress.css
+2020-05-31 19:12:45.105 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/gloable.css
+2020-05-31 19:12:45.248 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:12:45.295 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/yss/gloable.js
+2020-05-31 19:12:45.317 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/plugins/nprogress.js
+2020-05-31 19:12:45.335 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/pagemessage.js
+2020-05-31 19:12:58.575 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:12:58.581 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:12:58.595 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:12:58.596 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:12:58.597 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:13:02.379 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:13:02.381 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:13:02.382 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:13:02.383 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:13:02.404 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:13:02.406 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:13:02.408 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:13:02.412 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:15:14.723 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:15:14.723 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:15:14.723 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:15:14.725 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:15:14.735 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:15:14.848 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:15:14.890 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:15:14.902 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:15:17.669 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:15:17.671 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:15:17.676 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/master.css
+2020-05-31 19:15:17.677 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/nprogress.css
+2020-05-31 19:15:17.678 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/blog.css
+2020-05-31 19:15:17.683 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/gloable.css
+2020-05-31 19:15:17.749 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:15:17.818 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/cover/2019121192339714.png
+2020-05-31 19:15:17.870 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/yss/gloable.j
+2020-05-31 19:15:17.881 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/plugins/nprogress.js
+2020-05-31 19:15:17.889 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/yss/article.js
+2020-05-31 19:15:19.495 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:15:19.495 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:15:19.495 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/gloable.css
+2020-05-31 19:15:19.495 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/master.css
+2020-05-31 19:15:19.497 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/nprogress.css
+2020-05-31 19:15:19.499 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/message.css
+2020-05-31 19:15:19.536 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:15:19.586 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/yss/gloable.js
+2020-05-31 19:15:19.595 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/plugins/nprogress.js
+2020-05-31 19:15:19.603 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/pagemessage.js
+2020-05-31 19:15:21.239 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:15:21.239 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:15:21.239 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/master.css
+2020-05-31 19:15:21.245 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/gloable.css
+2020-05-31 19:15:21.246 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/nprogress.css
+2020-05-31 19:15:21.247 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/about.css
+2020-05-31 19:15:21.280 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:15:21.322 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/yss/gloable.js
+2020-05-31 19:15:21.332 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/plugins/nprogress.js
+2020-05-31 19:15:21.652 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/plugins/blogbenoitboucart.min.js
+2020-05-31 19:16:26.655 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /index.html
+2020-05-31 19:16:34.187 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:16:34.188 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:16:34.195 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:16:34.195 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:16:34.215 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /layui/layui.js
+2020-05-31 19:16:34.301 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/wow.min.js
+2020-05-31 19:16:34.335 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:16:34.340 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /js/index.js
+2020-05-31 19:18:03.683 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:18:03.683 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:18:03.683 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:18:03.683 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:18:03.722 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:18:03.828 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:18:03.833 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:18:03.849 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:18:26.560 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:18:26.560 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:18:26.560 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:18:26.560 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:18:26.610 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:18:26.709 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:18:26.742 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:18:26.753 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:20:25.069 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:20:25.069 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:20:25.069 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:20:25.069 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:20:25.092 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:20:25.229 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:20:25.233 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:20:25.247 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:23:48.189 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:23:48.189 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:23:48.189 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:23:48.193 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:23:48.209 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:23:48.209 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:23:48.346 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:23:48.346 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:23:48.389 [http-nio-80-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:23:48.403 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:24:54.272 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/font-awesome/css/font-awesome.min.css
+2020-05-31 19:24:54.272 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/css/layui.css
+2020-05-31 19:24:54.273 [http-nio-80-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/index_style.css
+2020-05-31 19:24:54.274 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/css/animate.min.css
+2020-05-31 19:24:54.318 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/layui/layui.js
+2020-05-31 19:24:54.318 [http-nio-80-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/wow.min.js
+2020-05-31 19:24:54.391 [http-nio-80-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/js/index.js
+2020-05-31 19:24:54.391 [http-nio-80-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/image/1.jpg
+2020-05-31 19:31:14.134 [http-nio-80-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:33:43.651 [http-nio-80-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:33:49.237 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:37:03.600 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': Could not bind properties to 'ResourceProperties' : prefix=spring.resources, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.resources' to org.springframework.boot.autoconfigure.web.ResourceProperties
+2020-05-31 19:37:04.768 [restartedMain] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.tl.BlogApplication.main(BlogApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 45 common frames omitted
+2020-05-31 19:40:03.422 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': Could not bind properties to 'ResourceProperties' : prefix=spring.resources, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.resources' to org.springframework.boot.autoconfigure.web.ResourceProperties
+2020-05-31 19:40:04.612 [restartedMain] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.tl.BlogApplication.main(BlogApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 45 common frames omitted
+2020-05-31 19:40:39.824 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /message.html
+2020-05-31 19:44:45.210 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:46:02.970 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:48:24.895 [http-nio-80-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:54:35.805 [http-nio-80-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
+2020-05-31 19:54:43.689 [http-nio-80-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /article.html
